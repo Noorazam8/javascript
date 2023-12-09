@@ -1,82 +1,78 @@
-// var emptyArray =[];
-// document.write(emptyArray)
-// var matrixArray = [
-//     [0,1,2,3],
-//     [1,0,1,2],
-//     [2,1,0,1],
-// ]
-// console.log(matrixArray)
 
-// 3. Write a program to print numeric counting from 1 to 10.
-// for(i=1; i<=10; i++ ){
-//     document.write( i + "<br>")
+1.// var date = new Date();
+// console.log(date);
+2.// var d = new Date();
+// var months = [
+//     "January", "February", "March", "April", "May", "June", "July", "August","September", "October", "November", "December"];
+// var month =months[d.getMonth()];
+// alert("Current month is: "  + month)
+
+3.// var d = new Date();
+// var days = ["Sunday","Monday","tuesday","Wednesday","Thursday","Friday","Saturdy"];
+// var day = days[d.getDay()];
+// var letter = day.substring(0,3);
+// alert("Today is:" +  letter);
+
+
+4.// var d = new Date();
+// var days = ["Sunday","Monday","tuesday","Wednesday","Thursday","Friday","Saturdy"];
+// var day = days[d.getDay()];
+// if(day === "Saturday" || day === "Sunday"){
+//     alert("Its a Funday")
+// }else{
+//     alert("Its a working Day")
 // }
 
-// var num = prompt("Enter the number");
-// var length = prompt("Enter the length")
-// for(i=1; i<length ; i++){
-//     document.write(num + "X" + i + "="+ i*num + "<br>" )
+5.// var d = new Date();
+// var date =d.getDate();
+// if(date > 16){
+//     alert("last day of the month")
+// }else{
+//     alert("First fifteen day of the month")
+// }
+6.// var d = new Date();
+// var time= d.getTime();
+// var second = d.getMinutes();
+// var m = time - second;
+// var diffMin = m/(1000*60*60);
+// var accurateMin = Math.floor(diffMin);
+// document.write("Current Date: " + d);
+// document.write("<br> Elapsed milliseconds since, Jan 1, 1970: " + time);
+// document.write("<br> Elapsed minutes since midnight, Jan 1, 1970: " + accurateMin)
+
+7.// var d =new Date();
+// var hour = d.getHours();
+// if(hour < 12){
+//     alert("Its a.m")
+// }else{
+//     alert("Its p.m")
 // }
 
-// var fruit = [ "apple","mango" ,"banana" , "strawberry","orange"];
-// for(i=0 ; i<fruit.length; i++){
-//     document.write("Element of index" + i + " \tis \t"+ fruit[i]  + "<br>")
-// } 
+8.// var dlast = new Date(2020,12,31);
+// document.write("later date:" + dlast)
 
-// for(i=1; i<=15; i++){
-//     document.write(  i  +","  )
-// }
+9.// var date = new Date(2015,6,18);
+// var d= new Date();
+// var now = d - date
+// var dpassed = Math.floor(now / (1000 *60 *60 *24));
+// document.write(dpassed  + " days passed since Ramzan 1st 2015")
 
-// for(i=10; i>=0; i--){
-//     document.write( i + ",")
-// }
-// for(var i = 0; i <= 20; i+=2){
-//     document.write(i + ",");
-// }
+10.// var dlast = new Date(2015,0,1);
+// var d = new Date();
+// var diff = (d-dlast) / 1000;
+// alert("On refrence date " + d + diff + " has passed since 2015 beigning" )
 
-// Task 7
-// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var order = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
-// var match = "no";
+11.// var date = new Date()
+// var d = new Date();
+//  d.setFullYear(d.getFullYear()-100);
+// alert("Current date :" + date + "100 years back it was " + d)
 
-// for(var i = 0; i < arr.length; i++){
-//     if(arr[i] == order){
-//         match = "yes";
-//         break;
-//     }
-// }
-// if(match == "yes"){
-//     document.write(order + " is available in our bakery");
-// }
-// else{
-//     document.write(order + " isn't available in our bakery");
-// }
+12.// var age = prompt("Enter your age");
+// var birthyear = new Date().getFullYear()-age
+// alert("Your age is: " + age + "\n Your Birh year is: "+ birthyear )
 
-// Task 8
-// var arr = [24, 53, 78, 91, 12];
-// document.write("<h2>" + "Array items: " + arr + "</h2>");
 
-// var smallestNumber = arr[0];
 
-// for (var i = 0; i < arr.length; i++) {
-//   if (arr[i] < smallestNumber) {
-//     smallestNumber = arr[i];
-//   }
-// }
 
-// document.write("<h2>" + "The smallest number is: ", smallestNumber + "</h2>");
-
-// Task 9
-// var arr = [24, 53, 78, 91, 12];
-// document.write("<h2>" + "Array items: " + arr + "</h2>");
-
-// var largestNumber = arr[0];
-
-// for (var i = 0; i < arr.length; i++) {
-//   if (arr[i] > largestNumber) {
-//     largestNumber = arr[i];
-//   }
-// }
-// document.write("<h2>" + "The largest number is: ", largestNumber + "</h2>");
 
 
